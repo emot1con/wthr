@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
           create: (context) => GeoCoorProvider(),
         ),
         ChangeNotifierProvider(
-          create: (context) => WeatherProvider()  ,
+          create: (context) => WeatherProvider(),
         ),
         ChangeNotifierProvider(
           create: (context) => FutureWeatherProvider(),
