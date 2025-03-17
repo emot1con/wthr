@@ -1,16 +1,37 @@
-# github_project_5_weather_app
+# Flutter Weather App
 
-A new Flutter project.
+A lightweight and user-friendly weather application built with Flutter.
 
-## Getting Started
+## Features
+- Get real-time weather updates.
+- Search weather by city name.
+- Display temperature, humidity, wind speed, and weather conditions.
+- Simple and modern UI.
 
-This project is a starting point for a Flutter application.
+## Installation
+1. Clone this repository:
+   ```sh
+   git clone https://github.com/emot1con/wthr.git
+   ```
+2. Navigate to the project folder:
+   ```sh
+   cd wthr
+   ```
+3. Install dependencies:
+   ```sh
+   flutter pub get
+   ```
+4. Add your API key:
+   - Create a `.env` file in the root directory.
+   - Add the following content:
+     ```env
+     WEATHER_API_KEY=your_api_key_here
+     ```
+5. Run the app:
+   ```sh
+   flutter run
+   ```
 
-A few resources to get you started if this is your first Flutter project:
+## API Setup
+Obtain an API key from a weather data provider (e.g., OpenWeatherMap) and replace `your_api_key_here` in the `.env` file.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
